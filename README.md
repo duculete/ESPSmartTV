@@ -11,5 +11,6 @@ The Boards listens command on MQTT topic and based on that command will send IR 
 
 ## Extra features:
 Since this project is created to work with Apple Homekit via Homebridge plugin some extra features are added:
-    - receives and handler Apple HomeKit TV/STB remore keys (UP, DOWN, MENU, VOLUME_UP, etc ...)
-    - has predefined few IR codes for IR Remote control and handles different "macro" action: switch to channel 32, switch to chanel 123, switch to HDMI (the logic depends on TV model and manufacturer).
+
+- receives and handler Apple HomeKit TV/STB remore keys (UP, DOWN, MENU, VOLUME_UP, etc ...)
+- has predefined few IR codes for IR Remote control and handles different "macro" action: switch to channel 32, switch to chanel 123, switch to HDMI (the logic depends on TV model and manufacturer).
