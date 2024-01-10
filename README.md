@@ -1,4 +1,5 @@
-# ESPSmartTV - control your TV via IR using MQTT (and apple HomeKIT: https://github.com/duculete/homebridge-mq-tv )
+# ESPSmartTV - control your TV via IR using MQTT 
+...(and apple HomeKIT: https://github.com/duculete/homebridge-mq-tv )
 
 ## Hardware
 The Wemos ESP8266 board containes 3 elements:
@@ -7,7 +8,7 @@ The Wemos ESP8266 board containes 3 elements:
 - Contact sensor
 
 ## How it works
-The Boards listens command on MQTT topic and based on that command will send IR code. Also using Contact sensor (**TV_STATUS_PIN**) it will read if TV is on or OFF and update the coresponding MQTT Topic. This feature is usefull if the TV has a USB port that sends power only when TV is ON (5V). 
+The Boards listens for commands on MQTT topic and based on that command will send IR code. Also using Contact sensor (**TV_STATUS_PIN**) it will read if TV is on or OFF and update the coresponding MQTT Topic. This feature is usefull if the TV has a USB port that sends power only when TV is ON (5V). 
 
 ## Extra features:
 Since this project is created to work with Apple Homekit via Homebridge plugin some extra features are added:
